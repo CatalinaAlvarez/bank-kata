@@ -13,7 +13,7 @@ public class Statement {
     }
 
     public List<String> returnStatementlist() {
-        return this.statementList;
+        return statementList;
     }
 
     public void addStatementLine(String line){
