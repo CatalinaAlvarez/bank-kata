@@ -4,19 +4,7 @@ public class StatementLine {
 
     Statement statement = new Statement();
 
-    private String date;
-    private double credit;
-    private double debit;
-    private double balance;
-
     public StatementLine() {
-    }
-
-    public StatementLine(String date, double credit, double debit, double balance) {
-        this.date = date;
-        this.credit = credit;
-        this.debit = debit;
-        this.balance = balance;
     }
 
     public String decimalFormatter(double amount){
