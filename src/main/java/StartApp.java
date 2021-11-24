@@ -14,5 +14,7 @@ public class StartApp {
         account.printStatement(System.out);
 
         filter.printFilterByDate(System.out, "14/01/2021");
+        filter.printOnlyCredit(System.out);
+        filter.printOnlyDebit(System.out);
     }
 }

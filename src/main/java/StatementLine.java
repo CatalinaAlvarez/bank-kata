@@ -2,7 +2,7 @@ import java.text.DecimalFormat;
 
 public class StatementLine {
 
-    Statement statement = new Statement();
+    private Statement statement = new Statement();
 
     public StatementLine() {
     }

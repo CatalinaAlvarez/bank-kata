@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 public class Transaction {
 
     private double balance = 0;
-    StatementLine statementLine = new StatementLine();
+    private StatementLine statementLine = new StatementLine();
 
     public double amountOf(double amount) {
         return amount;
