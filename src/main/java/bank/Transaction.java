@@ -1,9 +1,11 @@
-import java.text.DecimalFormat;
+package bank;
+
+import bank.StatementLine;
 
 public class Transaction {
 
     private double balance = 0;
-    private StatementLine statementLine = new StatementLine();
+    StatementLine statementLine = new StatementLine();
 
     public double amountOf(double amount) {
         return amount;

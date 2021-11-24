@@ -1,3 +1,7 @@
+package bank;
+
+import bank.Statement;
+
 import java.text.DecimalFormat;
 
 public class StatementLine {
